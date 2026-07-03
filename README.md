@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/C%2B%2B-17%2F20-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++"/>
+  <img src="https://img.shields.io/badge/C%2B%2B-20%2F23-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++"/>
   <img src="https://img.shields.io/badge/STM32-bare--metal-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32"/>
   <img src="https://img.shields.io/badge/CMSIS-only-005A9C?style=flat-square" alt="CMSIS"/>
   <img src="https://img.shields.io/badge/BLE-nRF5340-00A9CE?style=flat-square&logo=nordicsemiconductor&logoColor=white" alt="nRF5340"/>
@@ -31,8 +31,8 @@ bare-metal C++20 SDK со своим генератором проектов и 
 - Bare-metal STM32 на чистом CMSIS (без HAL/LL): драйверы периферии, интеграция с RTOS, детерминированный старт и предсказуемый footprint.
 
 **Инженерная практика**
-- Промышленная разработка на C++17/20 и C; сетевые и микросервисные приложения, инструментарий на Python.
-- Собственное SDK для STM32 ([stm32-sdk](https://github.com/khosta77/stm32-sdk)) с генератором проектов `stmtool`, строгими флагами сборки (`-Werror -Wall -Wextra -Wpedantic -Wshadow`) и CI на GitHub Actions.
+- Промышленная разработка на C++20/23 и C; сетевые и микросервисные приложения, инструментарий на Python.
+- Собственное SDK для STM32 ([stm32-sdk](https://github.com/khosta77/stm32-sdk)) с генератором проектов `stmtool` и CI на GitHub Actions.
 - Прикладные области: управление ЧПУ и шаговыми двигателями, приборное ПО (осциллографы), работа с биржевыми данными (MOEX).
 
 **Образование и дополнительная подготовка**
@@ -99,10 +99,14 @@ bare-metal C++20 SDK со своим генератором проектов и 
 
 ## Аналитика
 
-<!-- Внешние сервисы: github-readme-stats (vercel) и leetcard (jacoblin.cool) — сторонний хостинг, не под контролем автора. -->
+<!-- Внешние сервисы: github-profile-summary-cards, streak-stats (demolab), leetcard — сторонний хостинг, не под контролем автора. -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=khosta77&show_icons=true&hide_border=true&count_private=true" alt="GitHub Stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=khosta77&layout=compact&hide_border=true&langs_count=8" alt="Top Languages" height="165"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=khosta77&theme=default" alt="GitHub Stats" height="200"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=khosta77&theme=default" alt="Top Languages" height="200"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=khosta77&hide_border=true" alt="GitHub Streak" height="200"/>
 </p>
 
 <p align="center">
