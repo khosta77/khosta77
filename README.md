@@ -23,27 +23,21 @@ bare-metal C++20 SDK со своим генератором проектов и 
 
 ---
 
-## Ключевые проекты
+## Опыт
 
-### Embedded / bare-metal
+**Senior C++ Engineer · Сбер** — embedded и системное программирование
+- Носимая электроника: nRF5340, BLE-стек, низкопотребляющие прошивки.
+- Внутренности KasperskyOS: системное программирование в микроядерной ОС.
+- Bare-metal STM32 на чистом CMSIS (без HAL/LL): драйверы периферии, интеграция с RTOS, детерминированный старт и предсказуемый footprint.
 
-- **[stm32-sdk](https://github.com/khosta77/stm32-sdk)** — bare-metal C++20 SDK для микроконтроллеров STM32: только CMSIS (без HAL/LL), опциональный FreeRTOS, драйверы и шаблоны проектов. Свой CLI `stmtool` (Python) для генерации, сборки и прошивки. Сборка под `-Werror -Wall -Wextra -Wpedantic -Wshadow`, документация на EN/RU через MkDocs.
+**Инженерная практика**
+- Промышленная разработка на C++17/20 и C; сетевые и микросервисные приложения, инструментарий на Python.
+- Собственное SDK для STM32 ([stm32-sdk](https://github.com/khosta77/stm32-sdk)) с генератором проектов `stmtool`, строгими флагами сборки (`-Werror -Wall -Wextra -Wpedantic -Wshadow`) и CI на GitHub Actions.
+- Прикладные области: управление ЧПУ и шаговыми двигателями, приборное ПО (осциллографы), работа с биржевыми данными (MOEX).
 
-### Экосистема ЧПУ
-
-- **[project_Squid](https://github.com/khosta77/project_Squid)** — система управления до 10 шаговыми двигателями для ЧПУ-станков: центральный STM32F407VG (Cortex-M4) и 10 драйверов STM32G031F8P6 (Cortex-M0+) через мультиплексор, синхронный и асинхронный режимы, единый Python CLI, unit- и интеграционные тесты. Прошивка на чистом CMSIS.
-- **[OctopusNode](https://github.com/khosta77/OctopusNode)** — модульная система ЧПУ-контроля.
-- **[MotorManagerService](https://github.com/khosta77/MotorManagerService)** — микросервис управления шаговыми двигателями через TCP-сокеты: RESTful API и веб-интерфейс, подключение к MCU через мост FT232RL.
-
-### Приборы и сервисы
-
-- **[ServerForOscilloscope](https://github.com/khosta77/ServerForOscilloscope)** — сервер для удалённого доступа к осциллографам с расширяемой архитектурой (общий базовый класс `Oscilloscope`).
-- **[HT6022_lib_cpp](https://github.com/khosta77/HT6022_lib_cpp)** — C++ библиотека для осциллографа Hantek HT6022BE.
-
-### Библиотеки и алгоритмы
-
-- **[MOEX_Cpp_API](https://github.com/khosta77/MOEX_Cpp_API)** — C++ библиотека для работы с API Московской биржи (котировки и свечи инструментов).
-- **[SSort](https://github.com/khosta77/SSort)** — header-only реализация 13 алгоритмов сортировки с инструментом для их сравнительного анализа.
+**Образование и дополнительная подготовка**
+- МГТУ им. Н.Э. Баумана, кафедра РЛ6 (радиоэлектроника).
+- VK Education (Технопарк) и ИМШ: продвинутый C++, многопоточное программирование, машинное обучение.
 
 ---
 
@@ -56,6 +50,9 @@ bare-metal C++20 SDK со своим генератором проектов и 
   <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black" alt="C"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/>
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash"/>
+  <img src="https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white" alt="MATLAB"/>
+  <img src="https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white" alt="LaTeX"/>
 </p>
 
 **Embedded**
@@ -63,6 +60,7 @@ bare-metal C++20 SDK со своим генератором проектов и 
 <p>
   <img src="https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32"/>
   <img src="https://img.shields.io/badge/CMSIS-005A9C?style=flat-square" alt="CMSIS"/>
+  <img src="https://img.shields.io/badge/ARM%20Cortex--M-0091BD?style=flat-square&logo=arm&logoColor=white" alt="ARM Cortex-M"/>
   <img src="https://img.shields.io/badge/nRF5340-00A9CE?style=flat-square&logo=nordicsemiconductor&logoColor=white" alt="nRF5340"/>
   <img src="https://img.shields.io/badge/BLE-0082FC?style=flat-square&logo=bluetooth&logoColor=white" alt="BLE"/>
   <img src="https://img.shields.io/badge/FreeRTOS-008000?style=flat-square&logo=freertos&logoColor=white" alt="FreeRTOS"/>
@@ -73,22 +71,52 @@ bare-metal C++20 SDK со своим генератором проектов и 
 
 <p>
   <img src="https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white" alt="CMake"/>
+  <img src="https://img.shields.io/badge/Make-A42E2B?style=flat-square&logo=gnu&logoColor=white" alt="Make"/>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="CI"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git"/>
+  <img src="https://img.shields.io/badge/GDB-A42E2B?style=flat-square&logo=gnu&logoColor=white" alt="GDB"/>
+  <img src="https://img.shields.io/badge/Valgrind-A42E2B?style=flat-square" alt="Valgrind"/>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"/>
+  <img src="https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS"/>
+</p>
+
+**AI-assisted development**
+
+<p>
+  <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude"/>
+  <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code"/>
+  <img src="https://img.shields.io/badge/OpenAI%20Codex-412991?style=flat-square&logo=openai&logoColor=white" alt="Codex"/>
+  <img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white" alt="Cursor"/>
+  <img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white" alt="Copilot"/>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/preferred%20model-Claude%20Opus%204.8-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Preferred model: Claude Opus 4.8"/>
+</p>
+
+---
+
+## Аналитика
+
+<!-- Внешние сервисы: github-readme-stats (vercel) и leetcard (jacoblin.cool) — сторонний хостинг, не под контролем автора. -->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=khosta77&show_icons=true&hide_border=true&count_private=true" alt="GitHub Stats" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=khosta77&layout=compact&hide_border=true&langs_count=8" alt="Top Languages" height="165"/>
+</p>
+
+<p align="center">
+  <a href="https://leetcode.com/u/khosta77">
+    <img src="https://leetcard.jacoblin.cool/khosta77?theme=light&font=Inter&ext=heatmap" alt="LeetCode khosta77" height="200"/>
+  </a>
 </p>
 
 ---
 
 ## Контакты
 
+- Телефон (предпочтительно): +7 993 352-20-93
+- Telegram: [@StepanFilimonovWork](https://t.me/StepanFilimonovWork)
+- Email: stepanfilllimonov@gmail.com
 - GitHub: [@khosta77](https://github.com/khosta77)
-
----
-
-<!-- Внешний сервис github-readme-stats (сторонний хостинг, не под контролем автора). -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=khosta77&show_icons=true&hide_border=true&count_private=true" alt="GitHub Stats" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=khosta77&layout=compact&hide_border=true&langs_count=8" alt="Top Languages" height="165"/>
-</p>
+- LeetCode: [khosta77](https://leetcode.com/u/khosta77)
