@@ -72,6 +72,16 @@ bare-metal C++20 SDK со своим генератором проектов и 
   <img src="https://img.shields.io/badge/KasperskyOS-006D5B?style=flat-square" alt="KasperskyOS"/>
 </p>
 
+**Схемотехника и CAD**
+
+<p>
+  <img src="https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white" alt="KiCad"/>
+  <img src="https://img.shields.io/badge/Altium%20Designer-191919?style=flat-square&logo=altiumdesigner&logoColor=white" alt="Altium Designer"/>
+  <img src="https://img.shields.io/badge/SolidWorks-E31937?style=flat-square&logo=dassaultsystemes&logoColor=white" alt="SolidWorks"/>
+  <img src="https://img.shields.io/badge/%D0%9A%D0%9E%D0%9C%D0%9F%D0%90%D0%A1--3D-1E8449?style=flat-square" alt="КОМПАС-3D"/>
+  <img src="https://img.shields.io/badge/Proteus-EE2E24?style=flat-square" alt="Proteus"/>
+</p>
+
 **Инструменты**
 
 <p>
@@ -106,17 +116,17 @@ bare-metal C++20 SDK со своим генератором проектов и 
 
 <!-- Внешние сервисы: github-profile-summary-cards, streak-stats (demolab), leetcard — сторонний хостинг, не под контролем автора. -->
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=khosta77&theme=default" alt="GitHub Stats" height="200"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=khosta77&theme=default" alt="Top Languages" height="200"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=khosta77&theme=default" alt="GitHub Stats" width="49%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=khosta77&theme=default" alt="Top Languages" width="49%"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=khosta77&hide_border=true" alt="GitHub Streak" height="200"/>
+  <img src="https://streak-stats.demolab.com/?user=khosta77&hide_border=true" alt="GitHub Streak" width="70%"/>
 </p>
 
 <p align="center">
   <a href="https://leetcode.com/u/khosta77">
-    <img src="https://leetcard.jacoblin.cool/khosta77?theme=light&font=Inter&ext=heatmap" alt="LeetCode khosta77" height="200"/>
+    <img src="https://leetcard.jacoblin.cool/khosta77?theme=light&font=Inter&ext=heatmap&width=700" alt="LeetCode khosta77" width="70%"/>
   </a>
 </p>
 
