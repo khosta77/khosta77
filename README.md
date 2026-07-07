@@ -6,20 +6,17 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/C%2B%2B-20%2F23-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++"/>
-  <img src="https://img.shields.io/badge/STM32-bare--metal-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32"/>
-  <img src="https://img.shields.io/badge/CMSIS-only-005A9C?style=flat-square" alt="CMSIS"/>
-  <img src="https://img.shields.io/badge/BLE-nRF5340-00A9CE?style=flat-square&logo=nordicsemiconductor&logoColor=white" alt="nRF5340"/>
-  <img src="https://img.shields.io/badge/KasperskyOS-internals-006D5B?style=flat-square" alt="KasperskyOS"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS"/>
+  <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude"/>
 </p>
 
 ---
 
 ## О себе
 
-Senior C++ инженер в Сбере, работаю на стыке embedded и системного программирования.
-Специализируюсь на bare-metal прошивках для STM32 (чистый CMSIS, без HAL/LL), носимой
-электронике на nRF5340 с BLE и внутренностях KasperskyOS. Автор [stm32-sdk](https://github.com/khosta77/stm32-sdk) —
-bare-metal C++20 SDK со своим генератором проектов и CI.
+Senior C++ инженер в Сбере, работаю на стыке embedded и системного программирования. Специализируюсь на bare-metal прошивках для STM32 и Nordic,
+носимой электронике с BLE. Автор [stm32-sdk](https://github.com/khosta77/stm32-sdk) - C++20 SDK под STM32 со своим генератором проектов и CI.
 
 ---
 
@@ -27,8 +24,8 @@ bare-metal C++20 SDK со своим генератором проектов и 
 
 **Senior C++ Engineer · Сбер** — embedded и системное программирование
 - Носимая электроника: nRF5340, BLE-стек, низкопотребляющие прошивки.
-- Внутренности KasperskyOS: системное программирование в микроядерной ОС.
-- Bare-metal STM32 на чистом CMSIS (без HAL/LL): драйверы периферии, интеграция с RTOS, детерминированный старт и предсказуемый footprint.
+- Cистемное программирование в микроядерной ОС.
+- STM32: драйверы периферии, интеграция с RTOS, детерминированный старт.
 
 **Инженерная практика**
 - Промышленная разработка на C++20/23 и C; сетевые и микросервисные приложения, инструментарий на Python.
@@ -36,9 +33,15 @@ bare-metal C++20 SDK со своим генератором проектов и 
 - Прикладные области: управление ЧПУ и шаговыми двигателями, приборное ПО (осциллографы), работа с биржевыми данными (MOEX).
 
 **Образование и дополнительная подготовка**
-- МГТУ им. Н.Э. Баумана, кафедра РЛ6 (радиоэлектроника).
+- МГТУ им. Н.Э. Баумана, кафедра РЛ6 (радиоэлектроника) бакалавр + магистратура.
 - VK Education (Технопарк) и ИМШ: продвинутый C++, многопоточное программирование, машинное обучение.
 
+## Контакты
+
+- Telegram(предпочтительно): [@StepanFilimonovWork](https://t.me/StepanFilimonovWork)
+- Телефон: +7 993 352-20-93
+- Email: stepanfilllimonov@gmail.com
+  
 ---
 
 ## Стек
@@ -116,26 +119,12 @@ bare-metal C++20 SDK со своим генератором проектов и 
 
 <!-- Внешние сервисы: github-profile-summary-cards, streak-stats (demolab), leetcard — сторонний хостинг, не под контролем автора. -->
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=khosta77&theme=default" alt="GitHub Stats" width="49%"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=khosta77&theme=default" alt="Top Languages" width="49%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=khosta77&theme=github" alt="GitHub Stats" width="49%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=khosta77&theme=github" alt="Top Languages" width="49%"/>
 </p>
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=khosta77&hide_border=true" alt="GitHub Streak" width="70%"/>
-</p>
-
-<p align="center">
-  <a href="https://leetcode.com/u/khosta77">
-    <img src="https://leetcard.jacoblin.cool/khosta77?theme=light&font=Inter&ext=heatmap&width=700" alt="LeetCode khosta77" width="70%"/>
-  </a>
-</p>
-
----
-
-## Контакты
-
-- Телефон (предпочтительно): +7 993 352-20-93
-- Telegram: [@StepanFilimonovWork](https://t.me/StepanFilimonovWork)
-- Email: stepanfilllimonov@gmail.com
-- GitHub: [@khosta77](https://github.com/khosta77)
-- LeetCode: [khosta77](https://leetcode.com/u/khosta77)
+[//]: <p align="center">
+[//]:  <a href="https://leetcode.com/u/khosta77">
+[//]:    <img src="https://leetcard.jacoblin.cool/khosta77?theme=light&font=Inter&ext=heatmap&width=700" alt="LeetCode khosta77" width="70%"/>
+[//]:  </a>
+[//]: </p>
