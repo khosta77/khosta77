@@ -110,7 +110,7 @@ Senior C++ инженер в Сбере, работаю на стыке embedded
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/preferred%20model-Claude%20Opus%204.8-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Preferred model: Claude Opus 4.8"/>
+  <img src="https://img.shields.io/badge/preferred%20model-Claude%20Opus%204.8-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Preferred model: Claude Opus 5.5"/>
 </p>
 
 ---
